@@ -23,10 +23,10 @@ public class consumer {
         return this.version;
     }
 
-    @GetMapping("/thisVersion")
+
+    @GetMapping("/thisVersion1")
     public String only(){
-        return "only version 1.0.0 hava";
+        return "only versioin 2.0.0 have";
     }
 
-    
 }
