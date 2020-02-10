@@ -26,7 +26,12 @@ public class consumer {
 
     @GetMapping("/thisVersion1")
     public String only(){
-        return "only versioin 2.0.0 have";
+        return "only versioin 3.0.0 have";
+    }
+
+    @GetMapping("/addMethod")
+    public String only3(){
+        return "add method in 3.0.0";
     }
 
 }
